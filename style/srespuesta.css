@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: arial, helvetica;
+    background-color: #051721;
+  }
+  
+  section{
+    text-align: left;
+    margin-top: 50px;
+    display: block;
+  }
+  
+  header{
+    width: 100%;
+    height: 100px;
+  }
+  
+  .logo{
+    width: 69px;
+    height: 69px;
+    border: 8px solid #3ed6af;
+    margin-top: 30px;
+    margin-left: 30px;
+    float: left;
+  }
+  
+  .logo h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color: #eee875;
+    text-align: center;
+    margin-top: 10px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+  }
+  
+  .menu{
+  list-style: none;
+  background: #051721;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+    height: 50px;
+    margin-right: 150px;
+    padding-top: 30px;
+  }
+  
+  .menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+  }
+  
+  .menu li{
+    display: inline-block;
+  text-align: right;
+    margin-top: 0px;
+  }
+  
+  .menu li a:hover{
+    padding-top: 4px;
+    background: #ef8354;
+    height: 25px;
+    border-radius: 10px;
+  }
+  
+  .form-register {
+    width: 800px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  
+  .form-register h5{
+    color: #D5D8DC;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #nombres, #apellidos, #telefono, #autor{
+    width: 250px;
+  }
+  
+  #correo, #titulo{
+    width: 300px;
+  }
+  
+  #codigo_generado, #fecha_despacho, #fecha_entrega, #codigo{
+    width: 200px;
+  }
+  
+  #curso, #num_registro, #estante{
+    width: 100px;
+  }
+  
+  .controls {
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .container{
+    margin-top: 20px;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  
+  .form-register .botons1{
+    width: 100px;
+    height: 40px;
+    background: #0CB2B2;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .form-register .botons2 {
+    width: 200px;
+    background: #0CB2B2;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    color: white;
+    margin: 16px;
+    font-size: 16px;
+  }
